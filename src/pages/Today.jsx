@@ -37,9 +37,7 @@ const deleteItems = () => {
 };
 
 
-
-
-  return (
+return (
     <div>
       <h1 style={{ fontSize: "50px" }}>Today's Mood</h1>
 
@@ -74,7 +72,6 @@ const deleteItems = () => {
         </>
       ))}
       <button onClick={deleteItems}
-
       style={{
         fontSize: "1.5rem",
         margin: "15px",
@@ -85,7 +82,7 @@ const deleteItems = () => {
         borderRadius: "50px",
         padding: "10px 20px",
         boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
-      }}     >Delete Mood</button>
+      }}>Delete Mood</button>
     </div>
   );
 }

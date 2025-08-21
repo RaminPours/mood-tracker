@@ -27,7 +27,7 @@ export default function Week() {
       </p>
       <div className="mood-container  ">
         {last7Days.map((day) => (
-          <div key={day}>
+          <div key={day} className="mood-item">
             <h2>{day}</h2>
             <p>{moods[day]}</p>
           </div>
