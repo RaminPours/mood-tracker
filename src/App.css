@@ -18,6 +18,8 @@ body{
     justify-content: center;
     align-items: center;
     width: 100%;
+    position: fixed;
+    top: 0;
     
 }
 
@@ -39,6 +41,8 @@ body{
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding: 20px;
+    margin-top: 80px; 
 }
 
 .mood-container {
@@ -52,4 +56,11 @@ body{
     width: 100%;
 }
 
-
+.mood-item {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 90%;
+    font-size: 30px;
+}
