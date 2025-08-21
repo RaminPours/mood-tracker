@@ -85,7 +85,7 @@ const deleteItems = () => {
         borderRadius: "50px",
         padding: "10px 20px",
         boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
-      }}     >Delete</button>
+      }}     >Delete Mood</button>
     </div>
   );
 }
