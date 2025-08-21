@@ -45,7 +45,7 @@ return (
         
          
      
-      <p style={{ color: "gray", fontSize: "20px" }}>Select date: {todayDate}</p>
+      <p style={{ color: "gray", fontSize: "20px" }}>Today is: {todayDate}</p>
       
       
       {emojis.map((emoji, index) => (
